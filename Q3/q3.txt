@@ -1,0 +1,13 @@
+teps of create IAM user on AWS console:
+
+1. login into AWS console.
+
+2. searched IAM in search bar and select it,then selected users and comes on add users.
+
+3. selcted Add users and create user dev-iot-elavate 
+
+4. Attach polocies EC2_full_access and Lambda_full_access
+
+5. dev-iot-elavate use will create
+
+

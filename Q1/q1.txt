@@ -1,0 +1,23 @@
+Steps :
+
+
+-> open ThingsBoard
+
+-> In ThingsBoard in devices create a new device and after that in credential part type the token for the device management
+
+-> Create access token
+
+-> and after that in thingsboard the payload is visible after that select the telemetry and create a widget and add to the dashboard
+
+
+Run publisher  node mqtt_publisher.js
+
+Run subscriber node mqtt_subscriber.js
+
+change access token in subscriber 
+	username:
+	
+use command on terminal 
+mosquitto_pub -d -q 1 -h "demo.thingsboard.io" -t "/api/vi/diot@123/telemetry" -u "diot@123" -f /home/diot/Desktop/220340126007/Q1/mqtt_data.json 
+
+broker will connect

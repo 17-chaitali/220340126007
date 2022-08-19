@@ -1,0 +1,54 @@
+create docker file and python file
+sudo docker build -t <image name> .
+
+sudo docker run -it <image name>
+
+sudo docker exec -it <container ID> bash
+
+
+ 1990  sudo docker run ubuntu:latest
+ 1991  docker ps -a
+ 1992  sudo docker build -t img .
+ 1993  sudo docker run -it img 
+ 1994  cd q4/
+ 1995  sudo docker run -it img 
+ 1996  sudo docker build -t imig .
+ 1997  sudo docker run -it imig 
+ 1998  docker ps
+ 1999  docker ps -a
+ 2000  sudo docker exec -it 94e08ca5c226 bash
+ 2001  sudo docker build -t imig1 .
+ 2002  sudo docker run -it imig1 
+ 
+ 
+ 
+ 
+Create a python application named as factorial.py
+
+write code in it,
+
+Create a Dockerfile without using any extensions
+
+then, build and run the python application using these commands
+
+sudo docker build -t square .
+
+sudo docker run -it square  OR sudo docker run --name fact -it square
+
+RUN the container and hold on:
+
+To verify that workdir is created and python file is copied inside conatiner
+
+RUN the command inside shell --> use sudo docker exec
+
+sudo docker ps  # it shows running docker
+
+sudo docker exec -it <containerid> sh
+
+--> It will prompt to container
+--> verify that
+go to pythoncodes directory it will show the python code RUN this in container
+
+
+
+
